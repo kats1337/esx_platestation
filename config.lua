@@ -13,7 +13,7 @@ Config = {
         Scale = 1.0,
     },
 
-    MinLength = 8, -- What is the minimum length for the plate?
+    MinLength = 8, -- What is the minimum length for the plate? Do not go higher than 8. It will break stuff
 
     PlateStations = {
         vec3(1145.0, -780.0, 58.0), --has support for multiple stations
