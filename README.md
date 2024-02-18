@@ -10,7 +10,6 @@ Script that adds possibility to have custom licenseplates!
 ## [DEPENDENCIES]
 Install these or you wont experience working script
 
-- https://github.com/overextended/oxmysql (works with normal my-sql also)
 - https://github.com/overextended/ox_lib
 - https://github.com/overextended/ox_target
 
