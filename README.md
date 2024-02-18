@@ -5,7 +5,7 @@ Script that adds possibility to have custom licenseplates!
 
 # Multiple spots at once, just add them to your config!
 
-# Ensure that your `owned_vehicles` SQL table has "owner" and "plate" columns! Otherwise you'd have to edit the `plate_sv.lua` to work! 
+# Ensure that your `owned_vehicles` SQL table has "owner" and "plate" columns! Otherwise you'd have to edit the `plate_sv.lua` for the script to work! 
 
 ## [DEPENDENCIES]
 Install these or you wont experience working script
