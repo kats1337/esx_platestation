@@ -1,5 +1,3 @@
-local playerLoaded = nil
-
 openChangePlate = function(vehNetID)
     lib.registerContext({
         id = 'vehiclePlateMenu',
@@ -131,15 +129,8 @@ CreateThread(function()
             EndTextCommandSetBlipName(blip)
         end
     end
-    while playerLoaded == nil do
-        Wait(1)
-    end
+    while not ESX.IsPlayerLoaded() do Wait(100) end
     CreateTarget()
-end)
-
-RegisterNetEvent('esx:playerLoaded')
-AddEventHandler('esx:playerLoaded',function()
-    playerLoaded = true
 end)
 
 CreateTarget()
