@@ -141,5 +141,3 @@ RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded',function()
     playerLoaded = true
 end)
-
-CreateTarget()
